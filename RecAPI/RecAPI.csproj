@@ -193,6 +193,10 @@
     <Compile Include="Migrations\201904050316005_initial.Designer.cs">
       <DependentUpon>201904050316005_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904051707438_ChangeDataTypeForBankIdandInvoiceNo.cs" />
+    <Compile Include="Migrations\201904051707438_ChangeDataTypeForBankIdandInvoiceNo.Designer.cs">
+      <DependentUpon>201904051707438_ChangeDataTypeForBankIdandInvoiceNo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\RecContext.cs" />
     <Compile Include="Models\recPayment.cs" />
@@ -269,6 +273,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201904050316005_initial.resx">
       <DependentUpon>201904050316005_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904051707438_ChangeDataTypeForBankIdandInvoiceNo.resx">
+      <DependentUpon>201904051707438_ChangeDataTypeForBankIdandInvoiceNo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

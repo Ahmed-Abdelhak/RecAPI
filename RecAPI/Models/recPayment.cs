@@ -30,12 +30,12 @@ namespace RecAPI.Models
         [Required]
         public float PAYMENT_AMOUNT { get; set; }
         [Required]
-        public int INVOICE_NO { get; set; }
+        public long INVOICE_NO { get; set; }
         public DateTime INVOICE_DATE { get; set; }
         public float INVOICE_AMOUNT_SETTELD { get; set; }
         public int CHEQUE_NO { get; set; }
         public DateTime CHEQUE_DATE { get; set; }
-        public int BANK_ID { get; set; }
+        public long BANK_ID { get; set; }
         public long AUTHENTICATION_CODE { get; set; }
         public string CUSTOMER_REMARKS { get; set; }
 
