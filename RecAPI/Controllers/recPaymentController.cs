@@ -13,9 +13,9 @@ namespace RecAPI.Controllers
     {
         private readonly RecContext _context;   // it's better to use Repository Design Pattern and Unit Of Work
 
-        public RecPaymentController(RecContext context)
+        public RecPaymentController()
         {
-            _context = context;
+            _context = new RecContext();
         }
         protected override void Dispose(bool disposing) // just to release  resources 
         {
