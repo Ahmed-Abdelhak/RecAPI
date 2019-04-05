@@ -17,7 +17,7 @@ namespace RecAPI.Controllers
         {
             _context = new RecContext();
         }
-        protected override void Dispose(bool disposing) // just to release  resources 
+        protected override void Dispose(bool disposing) // just to release un-managed resources 
         {
             base.Dispose(disposing);
             _context.Dispose();
